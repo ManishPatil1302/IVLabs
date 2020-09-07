@@ -11,7 +11,7 @@ while True:
         break
 rect = cv2.selectROI(img, False)
 
-ok = tracker.init(img, rect)
+inital = tracker.init(img, rect)
 cv2.destroyWindow("ROI selector")
 
 while True:
